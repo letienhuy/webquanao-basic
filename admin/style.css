@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#top{
+    width:850px;
+    margin: auto;
+    height: 120px;
+    background-color:  teal;
+    text-align: center;
+    line-height:120px;
+    color: white;
+    font-size:26px;
+    font-family:arial;
+    font-weight: bold;
+}
+#menu{
+    width:850px;
+    margin: auto;
+    height: 40px;
+    background-color: teal;
+    margin-top: 10px;
+    font-size:14px;
+}
+#menu ul{
+    list-style: none;
+}
+#menu ul li{
+    float: left;
+    width: 140px;
+    text-align: center;
+    border-left: 1px solid white;
+    line-height: 40px;
+}
+#menu ul li:hover{
+    background-color:#004080;
+}
+#menu ul li a{
+    text-decoration:none;
+    color: white;
+    font-weight: bold;
+}
+#table{
+    width:850px;
+    margin: auto;
+    margin-top: 10px;
+}
+#table table{
+    width:850px;
+
+} 
+#table tr{
+     border: 1px solid aqua;
+}
+#table th{
+    background-color:#FF8000;
+    color: white;
+}
+#table td{
+     border: 1px solid aqua;
+     text-align: center;
+     color: #444;
+}
+#table a {
+    color: red;
+    text-decoration: none;
+}
+#table a:hover{
+    color: lime;
+    text-decoration: underline;
+}
+#footer{
+    width: 850px;
+    margin: auto;
+    height:45px;
+    text-align: center;
+    color: white;
+    background-color: teal;
+    line-height: 45px;
+    margin-top: 10px;
+}
+#edit{
+	width:850px;
+	margin:auto;
+	height:146px;
+	}
+#edit fieldset{
+	height:100px;
+	width:250px;
+	margin:auto;
+	margin-top:20px;
+	}	
+#edit fieldset #input1{
+	margin-top:20px;}
+#edit input {
+    color: red;
+}    
+#qlsp{
+    width: 850px;
+    margin: auto;
+}  
+#quangcao {
+    width: 850px;
+    margin: auto;
+}   
+#quangcao table{
+    width: 850px;
+    margin: auto;
+}  	
+#quangcao th{
+    background-color: #FF8000;
+    color: white;
+} 
+#quangcao td{
+    border: 1px solid aqua;
+    text-align: center;
+    color: #444;
+}
+#quangcao a{
+    text-decoration: none;
+    color: red;
+}
+#quangcao a:hover{
+    color: lime;
+    text-decoration: underline;
+}
+#themqc{
+    width: 850px;
+    margin: auto;
+}
+#themqc fieldset{
+    height:100px;
+}
+#themqc table{
+    width: 530px;
+    height: 60px;
+    margin-left: 170px;
+    
+}
+#suaqc{
+    width: 850px;
+    margin: auto;
+}
+#suaqc table{
+    width: 400px;
+    margin: auto;
+}
+#donhang{
+    width: 850px;
+    margin: auto;
+}
+#donhang table {
+    width: 850px;
+    margin: auto;
+}
+#donhang table th{
+    background-color: #FF8000;
+    color: white;
+}
+#donhang table td{
+   border: 1px solid aqua;
+   text-align: center;
+   color: #444;
+}
+
+#xemdonhanga{
+    width: 850px;
+    margin: auto;
+}
+#xemdonhang table {
+    width: 850px;
+    margin: auto;
+}
+#xemdonhang table th{
+    background-color: #FF8000;
+    border: 1px solid aqua;
+    color: white;
+    
+}
+#xemdonhang table td{
+   border: 1px solid aqua;
+   text-align: center;
+   color: #444;
+}
+#donhang table a{
+    text-decoration: none;
+    color: red;
+}
+#donhang table a:hover{
+    text-decoration: underline; 
+    color: lime;
+}
+#dh1{
+    width: 845px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid aqua;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+#dh1 p{
+    padding-top: 5px;
+    color: red;
+}
+#dh1 span{
+    color: black;
+    font-weight: bold;
+}
+#xemtv{
+    width: 850px;
+    margin: auto;
+}
+#xemtv table{
+    width: 500px;
+    margin: auto;
+    
+}
+#xemtv table td{
+    width: 50px;
+    height: 35px;
+}
+#xemtv table input,#xemtv table textarea{
+    color: red;
+}

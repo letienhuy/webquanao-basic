@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#top{
+    width:850px;
+    margin: auto;
+    height: 120px;
+    background-color:  teal;
+    text-align: center;
+    line-height:120px;
+    color: white;
+    font-size:26px;
+    font-family:arial;
+    font-weight: bold;
+}
+#menu{
+    width:850px;
+    margin: auto;
+    height: 40px;
+    background-color: teal;
+    margin-top: 10px;
+}
+#menu ul{
+    list-style: none;
+}
+#menu ul li{
+    float: left;
+    width: 140px;
+    text-align: center;
+    border-left: 1px solid white;
+    line-height: 40px;
+}
+#menu ul li:hover{
+    background-color:#004080;
+}
+#menu ul li a{
+    text-decoration:none;
+    color: white;
+    font-weight: bold;
+}
+#table{
+    width:850px;
+    margin: auto;
+    margin-top: 10px;
+}
+#table table{
+    width:850px;
+
+} 
+#table tr{
+     border: 1px solid aqua;
+}
+#table th{
+    background-color: #FF8000;
+    color: white;
+}
+#table td{
+     border: 1px solid aqua;
+     text-align: center;
+     color: #444;
+}
+#footer{
+    width: 850px;
+    margin: auto;
+    height:45px;
+    text-align: center;
+    color: white;
+    background-color: teal;
+    line-height: 45px;
+    margin-top: 10px;
+}
+#edit{
+	width:850px;
+	margin:auto;
+	height:60px;
+	}
+#qlsp{
+	width:850px;
+	margin:auto;}	
+#sp tr th{
+	background-color:#F90
+	}
+#sp tr td{
+	border:1px solid #0FF;
+	text-align:center;
+	}	
+#themsp{
+    width: 850px;
+    margin:auto;
+    height: 320px;
+}   
+#formthemsp{
+    width: 280px;
+    margin: auto;
+    height: 250px;
+}
+#formthemsp input{
+    height: 25px;
+    width: 250px;
+    margin-top: 5px;
+}	
+#lienhe{
+    width: 850px;
+    margin: auto;
+    }
+#lienhe table{
+    width: 850px;
+    margin: auto;
+}    
+#lienhe th{
+    background-color: #FF8000;
+    color: white;
+}
+#lienhe td {
+    border:1px solid aqua;
+    text-align: center;
+    color: #444;
+}
+#lienhe a{
+    text-decoration:none;
+    color: red;
+}
+#lienhe a:hover{
+    text-decoration:underline;
+    color: lime;
+}
+#view{
+    width: 850px;
+    margin: auto;
+}
+#view table{
+    width: 500px;
+    height:280px;
+    margin-left: 150px;
+}
+#view table input{
+    width: 220px;
+    height: 25px;
+    
+}
+#view table textarea{
+    width: 250px;
+    height:100px;
+}

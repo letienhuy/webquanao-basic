@@ -1,0 +1,950 @@
+  @charset "utf-8";
+  /* CSS Document */
+  
+  * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+  }
+  
+  body {
+      font-family: Tahoma, Geneva, sans-serif;
+      font-size: small;
+      background-image: url(images/images/4236513-background-images.jpg);
+  }
+  
+  #wrapper {
+      width: 1000px;
+      display: block;
+      margin: 0 auto;
+      background-color: #FFF;
+  }
+  
+  #top {
+      width: 950px;
+      height: 50px;
+      background: #CCC;
+      margin: auto;
+      border-radius: 0px 0px 5px 5px;
+  }
+  
+  #top-left {
+      float: left;
+  }
+  
+  #top-left ul {
+      list-style: none;
+      padding-top: 10px;
+      padding-left: 20px;
+  }
+  
+  #top-left ul li {
+      float: left;
+      margin-left: 10px;
+  }
+  
+  #top-right {
+      float: right;
+      position: relative;
+  }
+  
+  #top-right img {
+      float: right;
+      margin-right: 20px;
+      margin-top: -10px;
+  }
+  
+  #top-right img:hover {
+      width: 40px;
+      height: 40px;
+  }
+  
+  #top-right ul {
+      list-style: none;
+      padding-top: 15px;
+      padding-right: 20px;
+  }
+  
+  #top-right ul li {
+      float: left;
+      margin-right: 10px;
+      color: #666;
+  }
+  
+  #top-right ul li a {
+      text-decoration: none;
+      color: #666;
+  }
+  
+  #top-right ul li a:hover {
+      color: #F00;
+  }
+  
+  #logo {
+      width: 950px;
+      height: 130px;
+  }
+  
+  #logo-left {
+      float: left;
+      padding-top: 20px;
+      padding-left: 80px;
+  }
+  
+  #logo-left span {
+      font-size: 36px;
+      font-weight: bold;
+      color: #F30;
+  }
+  
+  #logo-right2 {
+      width: 220px;
+      height: 30px;
+      float: right;
+      margin-top: 65px;
+      margin-right: -200px;
+      border: 1px solid #FFF;
+      padding: 1px;
+      position: relative;
+      border-radius: 10px;
+  }
+  
+  #shopcart {
+      width: 150px;
+      height: 50px;
+      float: right;
+      margin-right: 20px;
+      margin-top: 5px;
+      position: relative;
+  }
+  
+  #text_cart {
+      width: 60px;
+      height: 50px;
+      position: absolute;
+      top: 11px;
+      left: 96px;
+  }
+  
+  #bottom-search {
+      position: absolute;
+      height: 31px;
+      width: 34px;
+      right: 24px;
+      top: 6px;
+      border: 20px;
+      background-image: url(images/images/button.png);
+      background-repeat: no-repeat;
+      border-radius: 0px 10px 10px 0px;
+      cursor: pointer;
+      text-indent: -999px;
+  }
+  
+  #text-form {
+      border-radius: 10px 0px 0px 10px;
+      height: 31px;
+      border: 0px;
+      background-color: #F7F7F7;
+      text-align: center;
+  }
+  
+  #timkiem {
+      float: left;
+      width: 130px;
+      margin-left: 20px;
+      margin-top: 5px;
+  }
+  
+  #logotimkiem {
+      float: left;
+      padding-left: 20px;
+  }
+  
+  #logotimkiem img {
+      height: 25px;
+      width: 25px;
+      border: 1px solid #FFF;
+      padding: 1px;
+  }
+  
+  #logo-right3 {
+      float: right;
+      padding-right: 50px;
+      padding-top: 80px;
+      color: #999;
+  }
+  
+  #anh {
+      float: left;
+      margin-top: -8px;
+  }
+  
+  .paginate {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+  }
+  
+  .paginate span {
+      display: inline-block;
+      padding: 5px;
+      border: 1px solid #ddd;
+      cursor: pointer;
+      margin: 2px;
+  }
+  
+  .paginate span:hover {
+      background: #00F;
+      color: #fff;
+  }
+  
+  .paginate span.active {
+      background: #00F;
+      color: #fff;
+  }
+  
+  #menu {
+      margin: auto;
+      width: 100%;
+      height: 50px;
+      background: #4cae4c;
+      text-transform: uppercase;
+  }
+  
+  #menu>ul {
+      list-style: none;
+  }
+  
+  #menu>ul>li {
+      float: left;
+      position: relative;
+  }
+  
+  #menu>ul>li>a {
+      color: #fff;
+      float: left;
+      font-size: 15px;
+      line-height: 30px;
+      padding: 10px;
+      text-decoration: none;
+  }
+  
+  #menu ul>li>a:hover {
+      color: #F00;
+  }
+  
+  #menu ul li img {
+      margin-top: -13px;
+  }
+  
+  .submenu {
+      display: none;
+      min-width: 200px;
+      background: #4076ad;
+      position: absolute;
+      padding: 5px;
+      top: 48px;
+      left: 0;
+      list-style: none;
+  }
+  
+  .submenu li a {
+      line-height: 30px;
+      padding: 0 5px;
+      color: #fff;
+      text-decoration: none;
+  }
+  
+  .anhmenu {
+      width: 210px;
+      height: 282px;
+      float: left;
+      margin-top: 21px;
+  }
+  
+  .anhmenu img {
+      border: 1px solid #FFF;
+      padding: 3px;
+  }
+  
+  .danhsach {
+      width: 185px;
+      height: 200px;
+      float: left;
+      margin-left: 4px;
+      margin-top: 43px;
+  }
+  
+  .danhsach ul {
+      list-style: none;
+  }
+  
+  .danhsach ul li {
+      padding-bottom: 8px;
+      padding-top: 13px;
+  }
+  
+  .danhsach ul li a {
+      font-size: 14px;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      text-decoration: none;
+      padding-left: 30px;
+      color: #FFF;
+  }
+  
+  .danhsach ul li:hover {
+      background-color: #FC0;
+      border: 1px solid #FFF;
+  }
+  
+  #menu ul li:hover {
+      background: #5cb85c;
+  }
+  
+  #menu ul li:hover .submenu {
+      display: block;
+  }
+  
+  #content {
+      width: 1000px;
+      height: auto;
+      background-color: white;
+      float: left;
+      margin-top: -2px;
+  }
+  
+  #left {
+      width: 240px;
+      float: left;
+  }
+  
+  #lg_lh {
+      width: 200px;
+      height: 45px;
+      background-color: #640F6C;
+      background-image: url('images/images/hotro.png');
+      background-repeat: no-repeat;
+      background-position: 1px 1px;
+      float: left;
+      margin-top: 20px;
+      margin-left: 31px;
+  }
+  
+  #lg_lh p {
+      float: right;
+      line-height: 45px;
+      margin-right: 20px;
+      text-transform: uppercase;
+      font-size: 15px;
+      color: white;
+      font-weight: bold;
+  }
+  
+  #lh_1 img {
+      margin-left: 31px;
+      margin-top: 5px;
+  }
+  
+  #content-left {
+      width: 200px;
+      height: 400px;
+      text-align: center;
+      border: 1px solid #999;
+      margin-left: 30px;
+      margin-top: 60px;
+      float: left;
+  }
+  
+  #content-left ul {
+      list-style: none;
+      margin-top: 10px;
+  }
+  
+  #content-left ul li {
+      margin-top: 20px;
+      text-align: justify;
+      margin-left: 50px;
+  }
+  
+  #content-left ul li a {
+      color: #F30;
+      text-decoration: none;
+      font-size: 12px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #content-left ul li a:hover {
+      color: #00F;
+  }
+  
+  #content-center {
+      width: 500px;
+      height: auto;
+      float: left;
+      background-color: white;
+  }
+  
+  #quangcao {
+      float: left;
+      width: 100%;
+      height: 100px;
+      text-align: center;
+      line-height: 100px;
+      background-color: black;
+      color: white;
+      font-size: 25px;
+      font-family: tohoma;
+      text-transform: uppercase;
+      margin: 0 auto;
+      display: block;
+  }
+  
+  .title {
+      line-height: 30px;
+      display: block;
+      padding: 5px;
+      margin: 5px 0;
+      background: #eee;
+      color: #000;
+      text-transform: uppercase;
+      font-weight: bold;
+  }
+  
+  .sanpham ul {
+      width: 100%;
+      height: auto;
+      text-align: center;
+      list-style: none;
+  }
+  
+  .sanpham ul li {
+      display: inline-block;
+      margin: 5px 10px;
+      padding: 5px;
+      border: 1px solid #ccc;
+  }
+  
+  .sanpham ul li a {
+      text-decoration: none;
+  }
+  
+  .sanpham img {
+      border-radius: 5px;
+  }
+  
+  #content-right {
+      width: 202px;
+      float: right;
+      margin-left: 5px;
+      margin-right: 30px;
+      margin-top: 55px;
+  }
+  
+  .img1 {
+      margin-bottom: 20px;
+      margin-left: 25px;
+  }
+  
+  #content_thongtin {
+      width: 505px;
+      height: 653px;
+      float: left;
+      background-color: #FFFF80;
+      margin-left: 10px;
+  }
+  
+  #tt_1 {
+      width: 100%;
+  }
+  
+  #tt_1 ul li {
+      margin-top: 10px;
+      margin-left: 20px;
+  }
+  
+  #tt_1 p {
+      color: red;
+      font-size: 15px;
+      font-weight: bold;
+  }
+  
+  #menu_sp {
+      width: 100%;
+      background-color: #CCC;
+      color: rgb(255, 0, 0);
+      line-height: 30px;
+      font-weight: bold;
+      padding: 10px;
+  }
+  
+  #sp_01 {
+      width: 100%;
+      height: 400px;
+      padding: 50px 0;
+      background: rgb(250, 218, 177);
+  }
+  
+  #sp_01_1 {
+      width: 200px;
+      height: 300px;
+      float: left;
+  }
+  
+  #sp_01_1 img {
+      width: 100%;
+      height: 100%;
+  }
+  
+  .namesp {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 18px;
+      display: block;
+      padding: 5px;
+  }
+  
+  .price {
+      text-transform: uppercase;
+      font-weight: bold;
+      display: block;
+      padding: 5px;
+      color: #f00;
+  }
+  
+  #sp_01_2 {
+      width: calc(100% - 200px);
+      height: 300px;
+      float: left;
+  }
+  
+  #sp_01_2 button {
+      display: block;
+      margin: 0 auto;
+  }
+  
+  #footer {
+      width: 1000px;
+      height: 200px;
+      background-color: #CCC;
+      float: left
+  }
+  
+  .bottom {
+      width: 230px;
+      height: 200px;
+      float: left;
+  }
+  
+  .bottom ul {
+      list-style: none;
+      margin-left: 50px;
+      margin-top: 30px;
+  }
+  
+  .bottom ul li {
+      margin-top: 5px;
+  }
+  
+  .bottom ul li a {
+      text-decoration: none;
+      margin-top: 2px;
+      color: #666;
+  }
+  
+  #footer-right {
+      width: 310px;
+      height: 200px;
+  }
+  
+  #footer-right ul {
+      margin-left: 30px;
+  }
+  
+  #thuonghieu {
+      width: 1000px;
+      height: 40px;
+      float: left
+  }
+  
+  #thuonghieu ul {
+      list-style: none;
+  }
+  
+  #thuonghieu ul li {
+      float: left;
+      margin-left: 100px;
+      line-height: 40px;
+  }
+  
+  #thuonghieu ul li a {
+      border: 1px solid #666;
+      background-color: #FF0;
+      text-decoration: none;
+  }
+  
+  #thuonghieu ul li a:hover {
+      background-color: #0F0;
+  }
+  
+  #login {
+      width: 100%;
+      height: auto;
+      padding: 50px 20px;
+  }
+  
+  #login form input {
+      display: block;
+      height: 35px;
+      width: 80%;
+      margin: 4px auto;
+      line-height: 25px;
+      padding: 5px;
+  }
+  
+  #login form textarea {
+      display: block;
+      min-height: 100px;
+      width: 80%;
+      margin: 4px auto;
+      line-height: 25px;
+      padding: 5px;
+  }
+  
+  #login form label {
+      display: block;
+  }
+  
+  #login form input[type=submit] {
+      display: block;
+      height: 35px;
+      padding: 5px;
+      width: auto;
+      margin: 4px auto;
+      line-height: 25px;
+  }
+  
+  #login form input[type=radio] {
+      display: inline-block;
+      height: auto;
+      width: auto;
+  }
+  
+  .inline {
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+  }
+  
+  .inline select {
+      height: 30px;
+      padding: 5px;
+  }
+  
+  #content2 {
+      width: 400px;
+      height: 500px;
+      margin: auto;
+  }
+  
+  #giohang {
+      width: 522px;
+      height: auto;
+      float: left;
+      position: relative;
+  }
+  
+  #giohang table {
+      width: 522px;
+      height: auto;
+      float: left;
+      margin: 5px 0;
+      margin-left: 8px;
+  }
+  
+  #giohang table th {
+      background-color: #FF8000;
+  }
+  
+  #giohang table td {
+      text-align: center;
+      height: 100px;
+      font-size: 13px;
+      font-family: arial;
+  }
+  
+  #giohang table td img {
+      width: 60px;
+      height: 60px;
+  }
+  
+  #giohang table td #img {
+      width: 20px;
+      height: 20px;
+  }
+  
+  #giohang table tr:hover {
+      background-color: #DDDDDD;
+  }
+  
+  #dl_all {
+      float: left;
+      text-decoration: none;
+      color: white;
+      background-color: #5cb85c;
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: -50px;
+  }
+  
+  #dl_all:hover {
+      background-color: #4cae4c;
+  }
+  
+  #capnhat_gh {
+      margin-top: -50px;
+      float: left;
+      margin-left: 90px;
+      border: 0px none;
+      background-color: rgb(92, 184, 92);
+      color: white;
+      border-radius: 5px;
+      font-weight: bold;
+      padding: 9px;
+      cursor: pointer;
+  }
+  
+  #capnhat_gh:hover {
+      background-color: #4cae4c;
+  }
+  
+  #lienhe {
+      width: 500px;
+      float: left;
+      height: auto;
+  }
+  
+  #lienhe_top {
+      width: 520px;
+      height: 60px;
+      border-bottom: 3px solid #FF8000;
+      margin-left: 8px;
+      margin-top: 50px;
+  }
+  
+  #lienhe_top p {
+      padding-top: 30px;
+      padding-left: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      color: gray;
+  }
+  
+  #table_lh {
+      width: 500px;
+      height: 200px;
+      margin-left: 8px;
+      margin-top: 10px;
+  }
+  
+  #table_lh input {
+      width: 280px;
+      height: 25px;
+  }
+  
+  #table_lh textarea {
+      width: 320px;
+      height: 100px;
+  }
+  
+  #shop {
+      width: 160px;
+      background-color: #f0ad4e;
+      height: 35px;
+      line-height: 35px;
+      color: white;
+      border-radius: 5px;
+  }
+  
+  #shop:hover {
+      background-color: #eea236;
+  }
+  
+  #thtt {
+      width: 170px;
+      height: 35px;
+      line-height: 35px;
+      background-color: #5cb85c;
+      border-radius: 5px;
+      float: right;
+      text-align: center;
+      margin-right: 24px;
+      margin-top: -50px;
+  }
+  
+  #thtt:hover {
+      background-color: #4cae4c;
+  }
+  
+  #thtt a {
+      text-decoration: none;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+  }
+  
+  #gioithieu {
+      width: 490px;
+      margin: auto;
+      float: left;
+      margin-left: 12px;
+      margin-top: 50px;
+  }
+  
+  #gioithieu ul {
+      list-style: none;
+      margin-left: 5px;
+  }
+  
+  #heading {
+      width: 490px;
+      height: 30px;
+      border-bottom: 3px solid #FF8000;
+      font-size: 14px;
+      font-style: normal;
+      margin-bottom: 20px;
+  }
+  
+  #text_gt li {
+      padding-top: 10px;
+  }
+  
+  #text_gt h3 {
+      padding-top: 10px;
+      color: #0080FF;
+      font-size: 12px;
+  }
+  
+  #tt {
+      width: 510px;
+      float: left;
+      margin-top: 20px;
+      margin-left: 10px;
+  }
+  
+  #form_tt table {
+      width: 400px;
+      height: 500px;
+      margin: auto;
+  }
+  
+  #tt h4 {
+      font-size: 16px;
+      font-weight: normal;
+      color: #4076ad;
+  }
+  
+  #tt table td {
+      font-size: 14px;
+      color: #7f7f7f;
+  }
+  
+  #tt table td input {
+      height: 25px;
+      width: 250px;
+      margin-left: 20px;
+      padding-left: 10px;
+  }
+  
+  #tt table td textarea {
+      margin-left: 20px;
+      width: 290px;
+      height: 100px;
+  }
+  
+  #img {
+      transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+  }
+  
+  #img:hover {
+      transform: scale(1.2, 1.2);
+      -webkit-transform: scale(1.2, 1.2);
+      -moz-transform: scale(1.2, 1.2);
+      -o-transform: scale(1.2, 1.2);
+      -ms-transform: scale(1.2, 1.2);
+  }
+  
+  .thongbao {
+      margin-bottom: 30px;
+      margin-top: 10px;
+      font-size: 18px;
+      font-family: arial;
+      color: green;
+      float: left;
+  }
+  
+  .bottom_f {
+      width: 110px;
+      background-color: #f0ad4e;
+      height: 30px;
+      line-height: 30px;
+      color: white;
+      border-radius: 5px;
+      float: right;
+      text-align: center;
+      margin-left: 30px;
+  }
+  
+  #bottom_f:hover {
+      background-color: #eea236;
+  }
+  
+  #donhang_tt {
+      float: left;
+      position: absolute;
+      top: 105px;
+      left: 11px;
+      font-size: 17px;
+      color: red;
+  }
+  
+  #timkiem {
+      width: 500px;
+      height: auto;
+      float: left;
+  }
+  
+  #top_tk {
+      padding: 20px 52px;
+      text-align: center;
+      background-color: #7B7BC6;
+      font-size: 15px;
+      font-weight: bold;
+      border-radius: 5px;
+      color: white;
+  }
+  
+  #tb_tk2 {
+      margin-left: 100px;
+      margin-top: 20px;
+      color: red;
+      font-size: 12px;
+      font-weight: bold;
+  }
+  
+  #tb_tk1 {
+      margin-left: 100px;
+      margin-top: 20px;
+      font-size: 12px;
+      font-weight: bold;
+  }
+  
+  #timkiem h3 {
+      padding: 20px 90px;
+      font-size: 12px;
+      font-weight: bold;
+  }

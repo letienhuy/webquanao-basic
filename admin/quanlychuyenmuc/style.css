@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#top{
+    width:850px;
+    margin: auto;
+    height: 120px;
+    background-color:  teal;
+    text-align: center;
+    line-height:120px;
+    color: white;
+    font-size:26px;
+    font-family:arial;
+    font-weight: bold;
+}
+#menu{
+    width:850px;
+    margin: auto;
+    height: 40px;
+    background-color: teal;
+    margin-top: 10px;
+}
+#menu ul{
+    list-style: none;
+}
+#menu ul li{
+    float: left;
+    width: 140px;
+    text-align: center;
+    border-left: 1px solid white;
+    line-height: 40px;
+}
+#menu ul li:hover{
+    background-color:#004080;
+}
+#menu ul li a{
+    text-decoration:none;
+    color: white;
+    font-weight: bold;
+}
+#table{
+    width:850px;
+    margin: auto;
+    margin-top: 10px;
+}
+#table table{
+    width:850px;
+
+} 
+#table tr{
+     border: 1px solid aqua;
+}
+#table th{
+    background-color: #FF8000;
+    color: white;
+}
+#table td{
+     border: 1px solid aqua;
+     text-align: center;
+     color: #444;
+}
+#table a{
+    color: red;
+    text-decoration: none;
+}
+#table a:hover{
+    color: lime;
+    text-decoration: underline;
+}
+#footer{
+    width: 850px;
+    margin: auto;
+    height:45px;
+    text-align: center;
+    color: white;
+    background-color: teal;
+    line-height: 45px;
+    margin-top: 10px;
+}
+#edit{
+	width:850px;
+	margin:auto;
+	height:146px;
+	}
